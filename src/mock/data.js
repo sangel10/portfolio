@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'headshot.png',
   paragraphOne: `Currently open to new projects!`,
-  paragraphTwo: `I specialize in helping you grow to the next level. I've done everything from a simple landing pages to taking entire web-apps from design to release.`,
-  paragraphThree: ``,
+  paragraphTwo: `I specialize in helping you grow to the next level. I've done everything from simple landing pages to taking entire web-apps from design to release.`,
+  paragraphThree: ` `,
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'RBMA.png',
     title: 'Red Bull Music Academy',
-    info: `A site where that holds all the archives and transcripts of the legendary musicians interviewed as part of Red Bull Music Academy`,
+    info: `Archives and transcripts of the legendary musicians interviewed as part of Red Bull Music Academy`,
     info2: ' ',
     url: 'https://www.redbullmusicacademy.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Tandem.png',
     title: 'Tandem Diabetes',
-    info: `An insulin pump that is used by 100,000s of diabetics. I help present their pump data in a way that is readable and informative to health care providers.`,
+    info: `An insulin pump that is used by 100,000s of diabetics`,
     info2: ' ',
     url: 'https://www.tandemdiabetes.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -76,7 +76,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Loop.png',
     title: 'Ableton Loop',
-    info: ` `,
+    info: `Micro-site for a live event`,
     info2: ' ',
     url: 'https://loop.ableton.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -85,7 +85,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Carson.png',
     title: 'Carson Living',
-    info: 'A digital doorman app that lets you open doors and view cameras from your phone.',
+    info: 'A digital doorman app that lets you open doors and view cameras from your phone',
     info2: '',
     url: 'https://www.carson.live/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -94,7 +94,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Goodpoint.png',
     title: 'Goodpoint',
-    info: 'A Twitter-like social network with a focus on public-good.',
+    info: 'A Twitter-like social network with a focus on public-good',
     info2: '',
     url: 'https://www.mygoodpoint.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
