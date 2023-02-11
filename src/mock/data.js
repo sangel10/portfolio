@@ -11,16 +11,16 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Santiago Angel',
-  subtitle: 'NYC based frontend developer',
+  subtitle: 'NYC-based Web Developer',
   cta: `Let's Connect!`,
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'headshot.png',
-  paragraphOne: `I'm a very good developer`,
-  paragraphTwo: `I work with React!`,
-  paragraphThree: `Easy to work with, have worked with companies big and small to achieve their goals, whether that be launching a new product or creating a year in review site for investors.`,
+  paragraphOne: `Currently open to new projects!`,
+  paragraphTwo: `I specialize in helping you grow to the next level. I've done everything from a simple landing pages to taking entire web-apps from design to release.`,
+  paragraphThree: ``,
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'RBMA.png',
     title: 'Red Bull Music Academy',
-    info: '',
-    info2: '',
+    info: `A site where that holds all the archives and transcripts of the legendary musicians interviewed as part of Red Bull Music Academy`,
+    info2: ' ',
     url: 'https://www.redbullmusicacademy.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -39,72 +39,73 @@ export const projectsData = [
     id: nanoid(),
     img: 'RBMA-daily.png',
     title: 'Red Bull Music Academy Daily',
-    info: '',
-    info2: '',
+    info: `An online magazine for Red Bull`,
+    info2: ' ',
     url: 'https://daily.redbullmusicacademy.com/',
-    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Loop.png',
-    title: 'Ableton Loop',
-    info: '',
-    info2: '',
-    url: 'https://loop.ableton.com/',
-    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Goodpoint.png',
-    title: 'Goodpoint',
-    info: '',
-    info2: '',
-    url: 'https://www.mygoodpoint.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'Tandem.png',
     title: 'Tandem Diabetes',
-    info: '',
-    info2: '',
+    info: `An insulin pump that is used by 100,000s of diabetics. I help present their pump data in a way that is readable and informative to health care providers.`,
+    info2: ' ',
     url: 'https://www.tandemdiabetes.com/',
-    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Carson.png',
-    title: 'Carson Living',
-    info: '',
-    info2: '',
-    url: 'https://www.carson.live/',
-    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Relevant.png',
-    title: 'Relevant Community',
-    info: '',
-    info2: '',
-    url: 'https://relevant.community/relevant/top',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'Scruff.png',
     title: 'Scruff Dating',
-    info: '',
+    info: 'The largest Queer dating app in the US',
     info2: '',
     url: 'https://www.scruff.com/',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'Relevant.png',
+    title: 'Relevant Community',
+    info: 'A crypto-backed Reddit-style forum for discussion of news and niche topics',
+    info2: '',
+    url: 'https://relevant.community/relevant/top',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Loop.png',
+    title: 'Ableton Loop',
+    info: ` `,
+    info2: ' ',
+    url: 'https://loop.ableton.com/',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Carson.png',
+    title: 'Carson Living',
+    info: 'A digital doorman app that lets you open doors and view cameras from your phone.',
+    info2: '',
+    url: 'https://www.carson.live/',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Goodpoint.png',
+    title: 'Goodpoint',
+    info: 'A Twitter-like social network with a focus on public-good.',
+    info2: '',
+    url: 'https://www.mygoodpoint.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: `Let's connect!`,
+  btn: `Tell me what you're working on`,
+  email: 'santiagoangel10@gmail.com',
 };
 
 // FOOTER DATA
