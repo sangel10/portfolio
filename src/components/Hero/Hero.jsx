@@ -21,6 +21,10 @@ const Header = () => {
     }
   }, []);
 
+  if (!title) {
+    return null;
+  }
+
   return (
     <section id="hero" className="jumbotron">
       <Container>
