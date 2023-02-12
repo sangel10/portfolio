@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'headshot.png',
   paragraphOne: `Currently open to new projects!`,
-  paragraphTwo: `I specialize in helping you grow to the next level. I've done everything from simple landing pages to taking entire web-apps from design to release.`,
+  paragraphTwo: `I specialize in helping you grow to the next level. I've done everything, from building simple landing pages to taking entire web-apps from design to release.`,
   paragraphThree: ` `,
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
